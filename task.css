@@ -1,0 +1,59 @@
+* {
+   font-family:  'Jost', sans-serif;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    background-size: cover ;
+    background-position: center;
+}
+span{
+    color: red;
+}
+h1 {
+    text-align:center;
+    position: relative;
+    top: 25px;
+    font-size: large;
+    color: white;
+    font-style: oblique;
+   
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    width: 40%;
+    height: 60px;
+    background-color:black;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 60px;
+
+}
+
+form.submit {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+form.submit:hover{
+    transform: scale(1.5);
+}
+.tasks{
+    list-style: none;
+    max-width: 700px;
+    margin:auto;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
