@@ -279,7 +279,8 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color:aqua;
+    font-size: large;
 }
 footer p:nth-child(1){
     font-size: 30px;
@@ -288,8 +289,8 @@ footer p:nth-child(1){
     font-weight: bold;
 }
 footer p:nth-child(2){
-    color: white;
-    font-size: 17px;
+    color: rgb(140, 255, 0);
+    font-size: larger;
     width: 500px;
     text-align: center;
     line-height: 26px;
